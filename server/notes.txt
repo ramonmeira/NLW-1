@@ -1,0 +1,32 @@
+1° Dia: Conceitos e ambientes
+	Apresentar aplicação
+	Ambiente de desenvolvimento
+		Node.js & NPM
+		Visual Studio Code
+	Por que criaremos um API?
+	Conceitos de typescript
+	Criar base do projeto com Node.js
+	React & SPA (Single Page Application)
+	Criando projeto React.js
+	React Native & expo
+
+npm init -y
+
+npm install express
+npm install @types/express -D
+
+npm install typescript -D
+npm install ts-node -D
+npx tsc --init
+
+npx ts-node src/server.ts
+http://localhost:3333/users
+
+npm install ts-node-dev -D
+npx ts-node-dev src/server.ts
+npm run dev
+
+npx create-react-app web --template=typescript
+
+
+npm start
